@@ -75,7 +75,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-200 text-sm text-gray-500">
           <div className="flex flex-wrap justify-between">
             <div className="mb-4 md:mb-0">
-              <p>&copy; 2023 lululemon athletica. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} lululemon athletica clone | For educational purposes only</p>
             </div>
             <div className="flex flex-wrap gap-4">
               <a href="#" className="hover:underline">Privacy Policy</a>
