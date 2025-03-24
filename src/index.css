@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-black bg-white overflow-x-hidden;
+  }
+  
+  a {
+    @apply no-underline;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn-primary {
+    @apply bg-black text-white px-4 py-2 hover:bg-opacity-90 transition-all;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-black border border-black px-4 py-2 hover:bg-gray-100 transition-all;
+  }
+}
